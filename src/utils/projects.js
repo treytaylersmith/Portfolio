@@ -39,10 +39,10 @@ export const projects = [
 
   {
     id:4,
-    name: "ReadMe Generator",
+    name: "Retro-Net",
     img: "#",
     link: null,
-    repo: "https://github.com/treytaylersmith/Read-Me-Generator",
+    repo: "https://github.com/treytaylersmith/Retro-Net",
     descrip:
       "Generates a README.md for you",
   },
