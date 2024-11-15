@@ -1,25 +1,29 @@
+import { projects } from "../utils/projects";
+import ListItem from "../components/ListItem";
+import ProjectTeaser from "../components/ProjectSections/ProjectTeaser";
+import { Link } from "react-router-dom";
+
 export default function Works() {
   return (
     <div>
       <h1>Works</h1>
       <div className="container pt-4">
-      <ul className="list-group list-group">
-        {users.map((user) => (
-          <ListItem key={user.id}>
-            <Profile user={user} />
-            {/* Link elements are anchors under-the-hood, but they allow the routing behavior to be controlled by the client rather than the server */}
-            <Link
-              to={`/profile/${user.id}`}
-              className="badge bg-primary rounded-pill"
-            >
-              See More
-            </Link>
-          </ListItem>
-        ))}
-      </ul>
+        <ul className="list-group list-group">
+          {projects.map((project) => (
+            <ListItem key={project.id}>
+              {/* Pass the project details to ProjectTeaser component */}
+              <ProjectTeaser project={project} />
+              {/* Link to the detailed page of the project */}
+              <Link
+                to={`/project/${project.id}`}
+                className="badge bg-primary rounded-pill"
+              >
+                See More
+              </Link>
+            </ListItem>
+          ))}
+        </ul>
+      </div>
     </div>
-      
-    </div>
-    
   );
 }

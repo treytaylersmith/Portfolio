@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 import Works from './pages/Works';
 import AboutMe from './pages/AboutMe';
 import Resume from './pages/Resume';
-
+import ProjectPage from './pages/Project';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/Works',
         element: <Works />,
+      },
+      {
+        path: 'project/:id',
+        element: <ProjectPage />,
       },
       {
         path: '/AboutMe',
