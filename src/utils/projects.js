@@ -2,7 +2,7 @@ export const projects = [
   {
     id:0,
     name: "MVC Tech Blog",
-    img: "#",
+    img: "mvc.png",
     link: "https://mvc-tech-blog-e47b.onrender.com/",
     repo: "https://github.com/treytaylersmith/MVC-tech-blog",
     descrip:
@@ -11,7 +11,7 @@ export const projects = [
   {
     id:1,
     name: "E-commerce Back End",
-    img: "#",
+    img: null,
     link: null,
     repo: "https://github.com/treytaylersmith/E-Commerce-Back-End",
     descrip:
@@ -20,7 +20,7 @@ export const projects = [
   {
     id:2,
     name: "NoSQL Social Network Api",
-    img: "#",
+    img: null,
     link: null,
     repo: "https://github.com/treytaylersmith/NoSQL-Social-Network-Api",
     descrip:
@@ -30,7 +30,7 @@ export const projects = [
   {
     id:3,
     name: "SVG Logo Maker",
-    img: "#",
+    img: "svg-logo.png",
     link: null,
     repo: "https://github.com/treytaylersmith/SVG-Logo-Maker",
     descrip:
@@ -40,7 +40,7 @@ export const projects = [
   {
     id:4,
     name: "Retro-Net",
-    img: "#",
+    img: "retro-net.png",
     link: null,
     repo: "https://github.com/treytaylersmith/Retro-Net",
     descrip:
@@ -50,8 +50,8 @@ export const projects = [
   {
     id:5,
     name: "Note Taker",
-    img: "#",
-    link: null,
+    img: "note-taker.png",
+    link: "https://note-taker-m1nb.onrender.com/",
     repo: "https://github.com/treytaylersmith/Note-Taker",
     descrip:
       "A program that allows you to take notes, keeping a log of previous notes.",

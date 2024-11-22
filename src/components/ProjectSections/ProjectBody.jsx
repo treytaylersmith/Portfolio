@@ -25,6 +25,16 @@ export default function NavTabs({ project }) {
       ) : (
         <div></div>
       )}
+      <div>
+        {project.img ? (
+          <img src={`../../src/assets/img/${project.img}`} alt={project.name} />
+        ) : (
+          <div></div>
+        )}
+      </div>
+      <div>
+        <p>{project.descrip}</p>
+      </div>
     </div>
   );
 }
