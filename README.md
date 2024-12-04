@@ -6,7 +6,7 @@ MIT License
 
 My portfolio website, built using Vite React.js. 
 
-Visit the site with [this link](https://harmonious-gumption-c10538.netlify.app/)
+Visit the site with [this link](https://trey-tayler-smith.netlify.app/)
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ n/a
 
 ## Usage
 
-Visit the site with [this link](https://harmonious-gumption-c10538.netlify.app/)
+Visit the site with [this link](https://trey-tayler-smith.netlify.app/)
 
 ## Contribution
 n/a

@@ -8,15 +8,15 @@ export default function Works() {
     <div>
       <h1>Works</h1>
       <div className="container pt-4">
-        <ul className="list-group list-group">
+        <ul className="list-group ">
           {projects.map((project) => (
-            <ListItem key={project.id}>
+            <ListItem key={project.id} >
               {/* Pass the project details to ProjectTeaser component */}
               <ProjectTeaser project={project} />
               {/* Link to the detailed page of the project */}
               <Link
                 to={`/project/${project.id}`}
-                className="badge bg-primary rounded-pill"
+                className="badge bg-primary rounded-pill fs-5"
               >
                 See More
               </Link>

@@ -33,7 +33,7 @@ export default function ProjectPage() {
         )}
       </Container>
       <footer className="profile-footer">
-        <Link to="/works">← Go Back</Link>
+        <Link to="/works" className="badge bg-primary rounded-pill fs-5 m-2">← Go Back</Link>
       </footer>
     </>
   );

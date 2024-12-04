@@ -6,7 +6,8 @@ export default function NavTabs({ project }) {
           href={project.repo}
           target="_blank"
           rel="noopener noreferrer"
-          className="ms-2 me-auto"
+          type="button"
+          className="m-2 badge bg-primary rounded-pill fs-5"
         >
           Repo
         </a>
@@ -18,7 +19,8 @@ export default function NavTabs({ project }) {
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="ms-2 me-auto"
+          type="button"
+          className="m-2 badge bg-primary rounded-pill fs-5"
         >
           Deployed Site
         </a>
@@ -26,15 +28,16 @@ export default function NavTabs({ project }) {
         <div></div>
       )}
       <div>
+        <p className="fs-5">{project.descrip}</p>
+      </div>
+      <div>
         {project.img ? (
           <img src={`../../src/assets/img/${project.img}`} alt={project.name} />
         ) : (
           <div></div>
         )}
       </div>
-      <div>
-        <p>{project.descrip}</p>
-      </div>
+      
     </div>
   );
 }

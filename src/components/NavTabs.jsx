@@ -5,12 +5,12 @@ function NavTabs() {
 
   return (
     <div>
-      <h1>Trey Tayler Smith</h1>
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <h1 className = "text-center m-3">Trey Tayler Smith</h1>
+    <ul className="nav nav-tabs justify-content-center mt-4 mb-2 fs-5  ">
+      <li className="nav-item border-dark ">
         <Link
           to="/"
-          className={currentPage === "/" ? "nav-link active" : "nav-link"}
+          className={currentPage === "/" ? "nav-link active " : "nav-link text-dark"}
         >
           About Me
         </Link>
@@ -18,7 +18,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/Works"
-          className={currentPage === "/Works" ? "nav-link active" : "nav-link"}
+          className={currentPage === "/Works" ? "nav-link active" : "nav-link text-dark"}
         >
           Works
         </Link>
@@ -29,7 +29,7 @@ function NavTabs() {
         <Link
           to="/Contact"
           className={
-            currentPage === "/Contact" ? "nav-link active" : "nav-link"
+            currentPage === "/Contact" ? "nav-link active" : "nav-link text-dark"
           }
         >
           Contact
@@ -38,7 +38,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/Resume"
-          className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}
+          className={currentPage === "/Resume" ? "nav-link active" : "nav-link text-dark"}
         >
           Resume
         </Link>
