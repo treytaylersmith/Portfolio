@@ -16,7 +16,7 @@ export default function Works() {
               {/* Link to the detailed page of the project */}
               <Link
                 to={`/project/${project.id}`}
-                className="badge bg-primary rounded-pill fs-5"
+                className="badge bg-primary rounded-pill fs-5 p-3 m-3"
               >
                 See More
               </Link>

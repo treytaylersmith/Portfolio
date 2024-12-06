@@ -49,3 +49,13 @@ body {
 img{
   max-width: 1230px;
 }
+
+.resume-list li{
+  
+  width: 96px;
+  min-width: 80px;
+  height: 96px;
+  
+  
+}
+

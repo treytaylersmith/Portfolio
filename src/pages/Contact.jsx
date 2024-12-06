@@ -96,7 +96,7 @@ export default function Contact() {
         </div>
 
         <div>
-          <button type="submit" style={{ padding: "10px 20px", backgroundColor: "#4CAF50", color: "white", border: "none" }}>
+          <button type="submit"className="badge bg-primary rounded-pill fs-5 p-3 m-3">
             Send Message
           </button>
         </div>
